@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 body {
-    font-family: 'Poppins', Time New Roman';
+    font-family: 'Poppins', Time New Roman', serif;
     font-size: 16px;
     color: #263746;
     background-color: #F1F7F8;
@@ -104,7 +104,8 @@ footer {
 }
 
 footer a {
-    color: #ebf3eb;
+    color: #80CBC4;
+    text-decoration: underline;
 }
 
 footer a:hover {
