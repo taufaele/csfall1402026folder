@@ -1,113 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 body {
-    font-family: 'Poppins', Time New Roman', serif;
-    font-size: 16px;
-    color: #263746;
-    background-color: #F1F7F8;
-    line-height: 2.1;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f7f8;
 }
-
-   header {
-    background-image: url("beach.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    color: white;
-    text-align: center;
-    padding: 20px 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 
 h1 {
-    font-size: 49px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-nav a {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-nav a:visited {
-    color: #D5E8EF;
-}
-
-nav a:hover {
-    color: #00ff51;
-    text-decoration: underline;
-}
-
-main {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
-
-h2 {
-    color: #164E63;
-    border-bottom: 2px solid #2A9D8F;
-    padding-bottom: 5px;
-}
-
-h3 {
-    color: #164E63;
-    margin-top: 25px;
-}
-
-
-.color-answers {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 30px;
-}
-
-
-#top {
-    scroll-behavior: smooth;
-}
-
-.emphasis {
-    color: #008577;
-    font-weight: 700;
-}
-
-.deemphasis {
-    color: #00336c;
-}
-
-footer {
-    background-color: #008577;
-    color: rgb(242, 250, 244);
     text-align: center;
-    padding: 20px;
+    color: navy;
 }
 
-footer a {
-    color: #80CBC4;
-    text-decoration: underline;
-}
+.card {
+    background-color: lightblue;
+    width: 400px;
 
-footer a:hover {
-    color: rgb(2, 255, 27);
+    /* Round 1: Width and Height */
+    /* height: 80px; */
+
+    /* Round 2: Padding */
+    padding: 10px 30px;
+
+    /* Round 3: Border */
+    border: 3px solid navy;
+    box-sizing: border-box;
+
+    /* Round 4: Margin */
+    margin: 0 auto 24px auto;
 }
